@@ -9,7 +9,7 @@ Template for an [Aliucord](https://github.com/Aliucord) plugin repo
 
 ## Pre-requisites
 
-- Java JDK 17 or newer (JDK 21 is recommended). Example distributions:
+- Java JDK 21 or newer. Example distributions:
     - [Adoptium](https://adoptium.net)
     - [Temurin](https://adoptium.net/temurin)
     - [Azul](https://www.azul.com/downloads/?package=jdk#zulu)
@@ -30,10 +30,10 @@ To set up your development environment:
 
 To build and deploy your plugin:
 
-- On Linux & Mac, run `./gradlew MyFirstKotlinPlugin:make` to build the plugin.
-  Use `./gradlew MyFirstKotlinPlugin:deployWithAdb` to deploy directly to a connected device.
-- On Windows, use `.\gradlew.bat MyFirstKotlinPlugin:make`
-  and `.\gradlew.bat MyFirstKotlinPlugin:deployWithAdb` for building and deploying, respectively.
+- On Linux & Mac, run `./gradlew plugins:MyFirstKotlinPlugin:make` to build the plugin.
+  Use `./gradlew plugins:MyFirstKotlinPlugin:deployWithAdb` to deploy directly to a connected device.
+- On Windows, use `.\gradlew.bat plugins:MyFirstKotlinPlugin:make`
+  and `.\gradlew.bat plugins:MyFirstKotlinPlugin:deployWithAdb` for building and deploying, respectively.
 
 ## License
 
